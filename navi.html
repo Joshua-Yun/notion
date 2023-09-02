@@ -31,7 +31,7 @@
 		}
 
 		.navMenu a {
-			color: #183D3D;
+			color: #6554AF;
 			text-decoration: none;
 			text-transform: uppercase;
 			display: inline-block;
@@ -43,13 +43,13 @@
 		}
 
 		.border {
-			border: 5px solid #5C8374;
+			border: 5px solid #E966A0;
 
 		}
 
 		.navMenu a:hover {
 
-			color: #93B1A6;
+			color: #9575DE;
 		}
 	</style>
 </head>
@@ -58,7 +58,7 @@
 
 	<nav class="navMenu  border">
 		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
-<!-- 		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a> -->
+		<a id="inbox" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-inbox"></i> Inbox</a>
 
 
 
@@ -78,8 +78,8 @@
 
 			if (id == 'home')
 				window.open("https://www.notion.so/joshsinsight/ACTION-BOARD-fb5926ff445b4d6c8ddf88f359192c1a?pvs=4", '_blank').focus();
-			// else if (id == "inbox")
-			// 	window.open("https://www.notion.so/joshsinsight/inbox-924ed519eee646f3a8eb3ec4236381a0?pvs=4", '_blank').focus();
+			else if (id == "inbox")
+				window.open("https://www.notion.so/joshsinsight/inbox-924ed519eee646f3a8eb3ec4236381a0?pvs=4", '_blank').focus();
 
 
 		}
